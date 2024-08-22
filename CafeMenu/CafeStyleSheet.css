@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+#heading{
+    font-family: Cambria;
+}
+
+.menu{
+    text-align: center;
+
+    /*centering the div*/
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(211, 155, 82);
+    padding: 10px;
+}
+
+.coffee-flavor{
+    width: 80%;
+    text-align: left;
+}
+
+.coffee-price{
+    width: 20%;
+    text-align: right;
+}
+
+.item p{
+    display: inline-block;
+}
