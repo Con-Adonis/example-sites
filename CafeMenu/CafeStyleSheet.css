@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    margin-bottom: 15px;
+    margin-bottom: -10px;
 }
 
 #heading{
@@ -13,7 +13,7 @@ h1{
 }
 
 h2{
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: 10px;
     font-family: Cambria;
     font-size: 30px;
@@ -54,6 +54,10 @@ h2{
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
+}
+
+footer{
+    margin-top: -10px;
 }
 
 hr{
