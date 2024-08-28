@@ -14,17 +14,17 @@ h1{
 
 .r{
     background: linear-gradient(rgb(255, 150, 150), rgb(255, 0, 0), rgb(0, 0, 0));
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 1px 1px 10px black;
 }
 
 .g{
     background: linear-gradient(#AAFFAA, #00FF00, #000000);
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 1px 1px 10px black;
 }
 
 .b{
     background: linear-gradient(hsl(185, 100%, 50%), hsl(240, 100%, 50%), hsl(240, 0%, 0%));
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 1px 1px 10px black;
 }
 
 .sleeve{
