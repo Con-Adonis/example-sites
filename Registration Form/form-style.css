@@ -64,7 +64,24 @@ input, textarea, select{
 }
 
 .submit{
-    min-width: 30%;
-    max-width: 30px;
-    margin: auto 35% 80px 35%;
+    min-width: 70px;
+    width: 20%;
+    margin: 0 40% 80px 40%;
+    padding: 2%;
+    
+    outline: #f5f6f7;
+    font-family: arial;
+    font-size: 16px;
+    color: #f5f6f7;
+    background-color: #1b1b32;
+    border: 3px solid #777777;
+    border-radius: 18px;
+    transition: .5s;
+}
+
+.submit:hover{
+    cursor: pointer;
+    transition: .5s;
+    scale: 125%;
+    translate: 0 2px;
 }
