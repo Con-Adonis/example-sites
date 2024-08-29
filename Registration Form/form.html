@@ -11,10 +11,10 @@
         <p>Please fill out this form with the required information</p>
         <form method="post" action='https://register-demo.freecodecamp.org'></form>
         <fieldset>
-            <label for="first-name">Enter your first name: <input type="text" id="first-name" placeholder="First name" required/></label>
-            <label for="last-name">Enter your last name: <input type="text" id="last-name" placeholder="Last name" required/></label>
-            <label for="email:">Enter your email: <input type="email" id="email" placeholder="email" required/></label>
-            <label for="password">Enter a password: <input type="password" id="password" placeholder="password" pattern="[a-z,0-9]{5,3}"/></label>
+            <label for="first-name">Enter your first name: <input name="first-name" type="text" id="first-name" placeholder="First name" required/></label>
+            <label for="last-name">Enter your last name: <input name="last-name" type="text" id="last-name" placeholder="Last name" required/></label>
+            <label for="email:">Enter your email: <input name="email" type="email" id="email" placeholder="email" required/></label>
+            <label for="password">Enter a password: <input name="password" type="password" id="password" placeholder="password" pattern="[a-z,0-9]{5,3}"/></label>
         </fieldset>
         <fieldset>
             <legend>Account Type (required)</legend>
@@ -22,9 +22,22 @@
             <label for="b-acct"><input name="acct-type" id="b-acct" type="radio"> Business</label>
         </fieldset>
         <fieldset>
-            <label for="">Upload a profile picture: <input type="file"></label>
+            <label for="profile-picture">Upload a profile picture: <input name="profile-picture" type="file"></label>
+            <label for="age">Enter your age: <input name="age" type="number" min="13" max="120"></label>
+            <label for="referrer">How did you hear about us?
+                <select name="referrer" id="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">Advertisement</option>
+                    <option value="2">Youtube Channel</option>
+                    <option value="3">Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <label for="bio">Provide a bio:
+                <textarea name="bio" id="bio" placeholder="Enter bio here" cols="30" rows="3"></textarea>
+            </label>
         </fieldset>
-        <label for="terms-&-conditions"><input type="checkbox" id="terms-&-conditions" required>I have read and accept the <a href="">Terms and Conditions</a></label>
+        <label for="terms-&-conditions"><input name="terms-&-conditions" type="checkbox" id="terms-&-conditions" required>I have read and accept the <a href="">Terms and Conditions</a></label>
         <input type="submit">
     </body>
 </html>
