@@ -39,6 +39,14 @@ fieldset:last-of-type{
     border: none;
 }
 
+#age-button{
+    width:auto
+}
+
+.age{
+    display: inline;
+}
+
 label{
     display: block;
     margin: .5rem auto;
@@ -53,4 +61,10 @@ input, textarea, select{
     width: unset;
     margin: 0 .5em 0 0;
     vertical-align: middle;
+}
+
+.submit{
+    min-width: 30%;
+    max-width: 30px;
+    margin: auto 35% 80px 35%;
 }

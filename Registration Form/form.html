@@ -23,7 +23,7 @@
             </fieldset>
             <fieldset><!--pfp, age, refer, termsNconditions, submit content-->
                 <label for="profile-picture">Upload a profile picture: <input name="profile-picture" type="file"></label>
-                <label for="age">Enter your age: <input name="age" type="number" min="13" max="120"></label>
+                <label for="age" class="age">Enter your age: <input class="age" id="age-button" name="age" type="number" min="13" max="120"></label>
                 <label for="referrer">How did you hear about us?
                     <select name="referrer" id="referrer">
                         <option value="">(select one)</option>
@@ -38,6 +38,7 @@
                 </label>
             </fieldset>
             <label class="tnc" for="terms-&-conditions"><input class="tnc" name="terms-&-conditions" type="checkbox" id="terms-&-conditions" required>I have read and accept the <a class="tnc-link" href="">Terms and Conditions</a></label>
+            <!--Make button look super sick-->
             <input type="submit" class="submit" value="submit"></input>
         </form>
     </body>
