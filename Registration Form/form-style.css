@@ -13,11 +13,19 @@ h1, p, .tnc{
     text-align: center;
 }
 
+.tnc-link{
+    color: blue;
+}
+
+.tnc-link:hover{
+    color: red;
+}
+
 form{
-    width: 60vw;
+    width: 60%;
     max-width: 500px;
     min-width: 200px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 fieldset{
