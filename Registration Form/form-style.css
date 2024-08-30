@@ -2,7 +2,6 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0;
-    margin-bottom: 80px;
     background-color: #1b1b32;
     color: #f5f6f7;
     font-family: helvetica;
@@ -27,6 +26,8 @@ form{
     max-width: 500px;
     min-width: 200px;
     margin: 0 auto;
+    /*Button space fix*/
+    padding-bottom: 80px;
 }
 
 fieldset{
@@ -80,7 +81,6 @@ input[type="file"]{
     cursor: pointer;
 }
 
-/*Any way to add space under button?*/
 .submit{
     min-width: 70px;
     width: 20%;
