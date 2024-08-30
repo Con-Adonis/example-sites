@@ -78,7 +78,8 @@ input, textarea, select{
 .submit{
     min-width: 70px;
     width: 20%;
-    margin: 0 40% 80px 40%;
+    display: block;
+    margin: 0 auto;
     padding: 2%;
     
     outline: #f5f6f7;
