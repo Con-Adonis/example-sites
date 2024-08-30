@@ -52,13 +52,17 @@ label{
     margin: .5rem auto;
 }
 
-input, textarea, select{
-    width: 100%;
-    margin: 10px 0 0 0;
+input, textarea{
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: aliceblue;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin: 10px 0 0 0;
     min-height: 16px;
+    border-radius: 3px;
 }
 
 .inline{
