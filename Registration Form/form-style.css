@@ -73,6 +73,10 @@ input, textarea, select{
     vertical-align: middle;
 }
 
+.checkbox{
+    margin-bottom: 4px;
+}
+
 input[type="file"]{
     padding: 1px 2px;
 }
