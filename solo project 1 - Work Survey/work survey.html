@@ -13,7 +13,26 @@
         <p id="description">Let me know how I did with my software solution!</p>
 
         <!--Survey-->
-        <h2>How would you rate your overall satisfaction with the process and product?</h2>
-        
+        <form action="" id="survey-form">
+            <!--Rating-->
+            <p>How would you rate your overall satisfaction with the process and product?</p>
+            <p>★★★★★</p>
+
+            <!--Name-->
+            <label for="name" id="name-label">Name<input type="text" placeholder="Enter your name" required /></label>
+
+            <!--Email-->
+            <label for="email" id="email-label"><input type="email" placeholder="Enter your email" required /></label>
+
+            <!--Age-->
+            <label for="age" id="age-label">Age (optional)<input type="number" placeholder="Age" min="18" max="120"/></label>
+
+            <!--Service-->
+            <p>What service best describes what was accomplished?</p>
+            
+
+            <!--Submit-->
+            <input type="submit" />
+        </form>
     </body>
 </html>
