@@ -14,9 +14,13 @@
 
         <!--Survey-->
         <form action="" id="survey-form">
+
+            <fieldset>
             <!--Rating-->
-            <p>How would you rate your overall satisfaction with the process and product?</p>
-            <p>★★★★★</p>
+            <label for="">
+                <p>How would you rate your overall satisfaction with the process and product?</p>
+                <p>★★★★★</p>
+            </label>
 
             <!--Name-->
             <label for="name" id="name-label">Name<input type="text" placeholder="Enter your name" required /></label>
@@ -26,6 +30,7 @@
 
             <!--Age-->
             <label for="age" id="age-label">Age (optional)<input type="number" placeholder="Age" min="18" max="120"/></label>
+            </fieldset>
 
             <!--Service-->
             <fieldset>
@@ -35,6 +40,12 @@
                 <label for="adf" class="pointer"><input id="adf" type="checkbox">App development - front end></label>
                 <label for="adb" class="pointer"><input id="adb" type="checkbox">App development - back end</label>
                 <label for="o" class="pointer"><input id="o" type="checkbox">Other</label>
+            </fieldset>
+
+            <!--comments-->
+            <fieldset>
+                <p>Comments, questions or concerns? Let me know!</p>
+                <textarea name="qcc" id="qcc" cols="30" rows="3">Enter here</textarea>
             </fieldset>
 
             <!--Submit-->
