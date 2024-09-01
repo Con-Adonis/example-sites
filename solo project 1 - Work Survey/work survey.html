@@ -22,14 +22,20 @@
             <label for="name" id="name-label">Name<input type="text" placeholder="Enter your name" required /></label>
 
             <!--Email-->
-            <label for="email" id="email-label"><input type="email" placeholder="Enter your email" required /></label>
+            <label for="email" id="email-label">Email<input type="email" placeholder="Enter your email" required /></label>
 
             <!--Age-->
             <label for="age" id="age-label">Age (optional)<input type="number" placeholder="Age" min="18" max="120"/></label>
 
             <!--Service-->
-            <p>What service best describes what was accomplished?</p>
-            
+            <fieldset>
+                <legend>What best describes the service provided?</legend>
+                <label for="wdf" class="pointer"><input id="wdf" type="checkbox" checked>Web development - front end</label>
+                <label for="wdb" class="pointer"><input id="wdb" type="checkbox">Web development - back end></label>
+                <label for="adf" class="pointer"><input id="adf" type="checkbox">App development - front end></label>
+                <label for="adb" class="pointer"><input id="adb" type="checkbox">App development - back end</label>
+                <label for="o" class="pointer"><input id="o" type="checkbox">Other</label>
+            </fieldset>
 
             <!--Submit-->
             <input type="submit" />
