@@ -34,6 +34,13 @@
                 <label for="age" id="age-label">Age (optional)<input type="number" placeholder="Age" id="age" min="18" max="120"/></label>
             </fieldset>
 
+            <!--Personal or Business-->
+            <fieldset>
+                <legend>Was this software for personal or business use?</legend>
+                <label for="personal"><input type="radio" id="p-soft" name="soft-type" checked> Personal</label>
+                <label for="business"><input type="radio" id="b-soft" name="soft-type"> Business</label>
+            </fieldset>
+
             <!--Service-->
             <fieldset>
                 <legend>What best describes the service provided?</legend>
@@ -45,9 +52,9 @@
             </fieldset>
 
             <fieldset>
-                <label for="referrer">
+                <label for="dropdown">
                     <p>Any way I can improve?</p>
-                    <select name="referrer" id="referrer">
+                    <select name="dropdown" id="dropdown">
                         <option value="">Select one</option>
                         <option value="1">Communication</option>
                         <option value="2">Timliness</option>
