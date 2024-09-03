@@ -20,7 +20,25 @@
                 <!--Rating-->
                 <label for="">
                     <p>How would you rate your overall satisfaction with the process and product?</p>
-                    <p>★★★★★</p>
+                    <div class="stars">
+                        <span class="star" onclick="rating(1)">
+                            ★
+                        </span>
+                        <span class="star" onclick="rating(2)">
+                            ★
+                        </span>
+                        <span class="star" onclick="rating(3)">
+                            ★
+                        </span>
+                        <span class="star" onclick="rating(4)">
+                            ★
+                        </span>
+                        <span class="star" onclick="rating(5)">
+                            ★
+                        </span>
+                        <p id="output">Rating is: 0/5</p>
+                    </div>
+                    <script src="surveyJS.js"></script>
                 </label>
             </fieldset>
 

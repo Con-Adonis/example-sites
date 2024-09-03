@@ -22,6 +22,8 @@ form{
     background-color: rgb(255, 255, 255, .5);
 }
 
-background-image{
-    opacity: .1;
+.star{
+    color: rgb(33, 33, 40);
+    font-size: 6vh;
+    cursor: pointer;
 }
