@@ -9,13 +9,26 @@ body{
 
 fieldset{
     border: none;
+    border-bottom: 3px gray solid;
     border-radius: 10%;
+    border-radius: 0;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
 }
 
 form{
     border-radius: 10px;
-    margin: 0 10% 40px 10%;
+    margin: 0 auto 40px auto;
     padding-left: 10%;
+    min-width: 300px;
+    width: 80%;
+}
+
+label{
+    display: block;
+    margin: 10px;
 }
 
 form{
