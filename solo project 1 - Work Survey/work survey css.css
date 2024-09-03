@@ -1,11 +1,13 @@
+/*make code background img transparent, add nice blue-purple gradient over*/
+
 body{
-    background-color: aqua;
+    background-image: url(codess.png);
 }
 
-h1{
-    background-image: url("codess.png");
+form{
+    background-color: rgb(255, 255, 255, .5);
 }
 
-bkgimage{
-    opacity: .0;
+background-image{
+    opacity: .1;
 }
