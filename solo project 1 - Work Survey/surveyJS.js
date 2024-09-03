@@ -18,7 +18,7 @@ function rating(n){
     output.innerText = "Rating is: " + n + "/5";
 }
 
-function remov(){
+function remove(){
     let i=0;
     while(i<5){
         stars[i].className = "star";
