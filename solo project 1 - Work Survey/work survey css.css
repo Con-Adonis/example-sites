@@ -11,6 +11,12 @@ fieldset{
 }
 
 form{
+    border-radius: 10px;
+    margin: 0 10% 40px 10%;
+    padding-left: 10%;
+}
+
+form{
     background-color: rgb(255, 255, 255, .5);
 }
 
