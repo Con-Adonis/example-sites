@@ -1,7 +1,13 @@
-/*make code background img transparent, add nice blue-purple gradient over*/
-
 body{
-    background-image: url(codess.png);
+    background-image: linear-gradient(135deg, white 0%, rgb(96, 117, 211) 10%,rgba(4, 25, 68, 0.9) 30%);
+    font-family: Arial;
+    color:azure;
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    border-radius: 10%;
 }
 
 form{
