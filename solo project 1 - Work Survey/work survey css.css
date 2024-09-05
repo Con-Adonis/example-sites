@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(135deg, white 0%, rgb(96, 117, 211) 10%,rgba(4, 25, 68, 0.9) 30%);
+    background-image: linear-gradient(135deg, white 0%, rgb(96, 117, 211) 10%,rgba(4, 25, 68, 0.9) 60%);
     background-repeat: no-repeat;
     background-color: rgba(4, 25, 68);
     font-family: Arial;
@@ -43,4 +43,9 @@ form{
 
 .one, .two, .three, .four, .five{
     color: gold;
+}
+
+input, textarea, select{
+    border-radius: 12px;
+    border: none;
 }
