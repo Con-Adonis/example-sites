@@ -56,5 +56,13 @@ input, textarea, select{
     background-color: rgba(4, 25, 68);
     color: whitesmoke;
     border: 4px rgb(77, 76, 76) solid;
-    padding: 3px 5%;
+    padding: 4px 5%;
+    border-radius: 18px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.2);
+    translate: 0 3px;
 }
