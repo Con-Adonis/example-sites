@@ -49,3 +49,12 @@ input, textarea, select{
     border-radius: 12px;
     border: none;
 }
+
+.submit{
+    margin-top: 20px;
+    font-size: 100%;
+    background-color: rgba(4, 25, 68);
+    color: whitesmoke;
+    border: 4px rgb(77, 76, 76) solid;
+    padding: 3px 5%;
+}
