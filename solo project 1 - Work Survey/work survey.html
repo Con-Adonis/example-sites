@@ -18,18 +18,18 @@
 
             <fieldset>
                 <!--Rating-->
-                <label for="">
+                <label for="rating">
                     <p>How would you rate your overall satisfaction with the process and product?</p>
                     <div class="stars">
-                        <span class="star" onclick="rating(1)">★
+                        <span class="star" onclick="rating(1)" onclick="InputEvent(rating=1)">★
                         </span>
-                        <span class="star" onclick="rating(2)">★
+                        <span class="star" onclick="rating(2)" onclick="InputEvent(rating=2)">★
                         </span>
-                        <span class="star" onclick="rating(3)">★
+                        <span class="star" onclick="rating(3)" onclick="InputEvent(rating=3)">★
                         </span>
-                        <span class="star" onclick="rating(4)">★
+                        <span class="star" onclick="rating(4)" onclick="InputEvent(rating=4)">★
                         </span>
-                        <span class="star" onclick="rating(5)">★
+                        <span class="star" onclick="rating(5)" onclick="InputEvent(rating=5)">★
                         </span>
                         <p id="output">Rating is: 0/5</p>
                     </div>
@@ -37,27 +37,30 @@
                 </label>
             </fieldset>
 
+
+            <!--GET THESE INPUT BOXES LOOKING NICE-->
+
             <fieldset>
                 <!--Name-->
-                <label for="name" id="name-label">Name<input type="text" placeholder="Enter your name" id="name" required /></label>
+                <label for="name" id="name-label">Name: <input type="text" placeholder="Enter your name" id="name" class="enter" required /></label>
 
                 <!--Email-->
-                <label for="email" id="email-label">Email<input type="email" placeholder="Enter your email" id="email" required /></label>
+                <label for="email" id="email-label">Email: <input type="email" placeholder="Enter your email" id="email" class="enter" required /></label>
 
                 <!--Age-->
-                <label for="age" id="age-label">Age (optional)<input type="number" placeholder="Age" id="age" min="18" max="120"/></label>
+                <label for="age" id="age-label" id="center">Age (optional): <input type="number" placeholder="Age" id="age" class="enter" min="18" max="120"/></label>
             </fieldset>
 
             <!--Personal or Business-->
             <fieldset>
-                <legend>Was this software for personal or business use?</legend>
+                <p>Was this software for personal or business use?</p>
                 <label for="personal"><input type="radio" id="p-soft" name="soft-type" checked> Personal</label>
                 <label for="business"><input type="radio" id="b-soft" name="soft-type"> Business</label>
             </fieldset>
 
             <!--Service-->
             <fieldset>
-                <legend>What best describes the service provided?</legend>
+                <p>What best describes the service provided?</p>
                 <label for="wdf" class="pointer"><input id="wdf" type="checkbox" checked>Web development - front end</label>
                 <label for="wdb" class="pointer"><input id="wdb" type="checkbox">Web development - back end</label>
                 <label for="adf" class="pointer"><input id="adf" type="checkbox">App development - front end</label>
