@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(135deg, white 0%, rgb(96, 117, 211) 10%,rgba(4, 25, 68, 0.9) 60%);
     background-repeat: no-repeat;
+    min-height: 800px;
     background-color: rgba(4, 25, 68);
     font-family: Arial;
     color:azure;
