@@ -75,17 +75,20 @@ input, textarea, select{
 /*Scroll bar*/
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 12px;
+}
 
-    animation-name: scrollani;
-    animation-delay: .5s;
+::-webkit-scrollbar:hover{
+    animation-duration: .5s;
+    width: 20px;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-track{
-    background: rgb(0, 0, 0, .1);
+    background: rgb(4, 25, 68);
 }
 
 ::-webkit-scrollbar-thumb{
-    background: black;
-    border-radius: 10px;
+    background: rgb(61, 61, 64);
+    border-radius: 18px;
 }
