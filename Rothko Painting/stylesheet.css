@@ -1,9 +1,33 @@
-.background{
-    color: red;
-    background-color: red;
-    width: 500px;
+body{
+    background-color: black;
+    margin: 10% 10% 10% 10%;
 }
 
-p{
+.background{
+    width: 500px;
+    height: 600px;
     background-color: red;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.top-box{
+    height: 400px;
+    width: 430px;
+    background-color: rgb(42, 84, 212);
+    margin: auto;
+}
+
+.middle-box{
+    height: 130px;
+    width: 420px;
+    background-color: rgb(1, 1, 97);
+    margin: 10px auto;
+}
+
+.bottom-box{
+    height: 50px;
+    width: 430px;
+    background-color: orangered;
+    margin: 10px auto 10px;
 }
