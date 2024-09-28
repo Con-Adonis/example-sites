@@ -11,21 +11,26 @@ body{
     padding: 5px 0;
 }
 
-.top-box{
+.box{
+    filter: blur(3px);
+}
+
+.top{
     height: 400px;
     width: 430px;
     background-color: rgb(42, 84, 212);
     margin: auto;
+    box-shadow: rgb(40, 84, 212);
 }
 
-.middle-box{
+.middle{
     height: 130px;
     width: 420px;
     background-color: rgb(1, 1, 97);
     margin: 10px auto;
 }
 
-.bottom-box{
+.bottom{
     height: 50px;
     width: 430px;
     background-color: orangered;
