@@ -20,7 +20,8 @@ body{
     width: 430px;
     background-color: rgb(42, 84, 212);
     margin: auto;
-    box-shadow: rgb(40, 84, 212);
+    box-shadow: 0 0 2px 2px rgb(40, 84, 212);
+    transform: rotate(.2deg);
 }
 
 .middle{
@@ -28,6 +29,7 @@ body{
     width: 420px;
     background-color: rgb(1, 1, 97);
     margin: 10px auto;
+    border-radius: 40px 15px 40px 20px;
 }
 
 .bottom{
@@ -35,4 +37,5 @@ body{
     width: 430px;
     background-color: orangered;
     margin: 10px auto 10px;
+    box-shadow: 0 0 3px 3px orangered;
 }
